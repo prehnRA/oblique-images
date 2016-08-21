@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    imgkit (1.6.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  imgkit
+
+BUNDLED WITH
+   1.11.2
