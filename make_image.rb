@@ -31,8 +31,8 @@ def make_oblique(name, oblique)
               -webkit-transform: translateY(-50%);
               transform: translateY(-50%);
               top: 50%;
-              margin: 0 36px;
-              width: 100%;
+              margin: 0 auto;
+              width: 952px;
               max-width: 100%;
               position: fixed;
             }
@@ -45,7 +45,7 @@ def make_oblique(name, oblique)
   HTML
 
   kit = IMGKit.new(html, :quality => 50)
-  file = kit.to_file("./build/#{name}.png")
+  file = kit.to_file("./build/#{name}.jpg")
 end
 
 obliques = YAML.load_file('obliques.yaml')
